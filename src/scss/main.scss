@@ -4,10 +4,25 @@
 @import "modules/hello.scss";
 
 body {
-  background: $wtf;
-  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background-color: #A0CCDA;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  color: #422040 ;
+  background-color: #839D9A;
 }
